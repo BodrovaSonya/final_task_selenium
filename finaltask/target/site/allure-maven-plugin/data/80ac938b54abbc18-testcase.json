@@ -1,0 +1,356 @@
+{
+  "uid" : "80ac938b54abbc18",
+  "name" : "Поиск наушников в Яндекс.Маркете",
+  "title" : "Поиск наушников в Яндекс.Маркете",
+  "time" : {
+    "start" : 1518159507453,
+    "stop" : 1518159542103,
+    "duration" : 34650
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 20
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9536733c12b441d8",
+    "name" : "Яндекс.Маркет",
+    "title" : "Маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран элемент главного меню \"Маркет\"",
+    "title" : "Когда выбран элемент главного меню \"Маркет\"",
+    "time" : {
+      "start" : 1518159518776,
+      "stop" : 1518159522445,
+      "duration" : 3669
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMenuItem[Маркет]",
+      "title" : "выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1518159518777,
+        "stop" : 1518159522444,
+        "duration" : 3667
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран элемент меню \"Электроника\"",
+    "title" : "И выбран элемент меню \"Электроника\"",
+    "time" : {
+      "start" : 1518159522445,
+      "stop" : 1518159526102,
+      "duration" : 3657
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMarketMenuItem[Электроника]",
+      "title" : "выбран пункт меню Яндекс.Маркета Электроника",
+      "time" : {
+        "start" : 1518159522446,
+        "stop" : 1518159526101,
+        "duration" : 3655
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбрана категория товара \"Наушники\"",
+    "title" : "И выбрана категория товара \"Наушники\"",
+    "time" : {
+      "start" : 1518159526102,
+      "stop" : 1518159531579,
+      "duration" : 5477
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectElement[Наушники]",
+      "title" : "выбрана категория товаров Наушники",
+      "time" : {
+        "start" : 1518159526103,
+        "stop" : 1518159531579,
+        "duration" : 5476
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И заполнен фильтр цены от \"5000\"",
+    "title" : "И заполнен фильтр цены от \"5000\"",
+    "time" : {
+      "start" : 1518159531579,
+      "stop" : 1518159532147,
+      "duration" : 568
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillFilter[5000]",
+      "title" : "заполнен фильтр цены значением 5000",
+      "time" : {
+        "start" : 1518159531580,
+        "stop" : 1518159532147,
+        "duration" : 567
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И заполнен фильтр производителей товара \"Beats\"",
+    "title" : "И заполнен фильтр производителей товара \"Beats\"",
+    "time" : {
+      "start" : 1518159532148,
+      "stop" : 1518159532499,
+      "duration" : 351
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillProducerCheckBox[Beats]",
+      "title" : "выбран чек-бокс для производителя товара Beats",
+      "time" : {
+        "start" : 1518159532149,
+        "stop" : 1518159532498,
+        "duration" : 349
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И нажата кнопка применения фильтров",
+    "title" : "И нажата кнопка применения фильтров",
+    "time" : {
+      "start" : 1518159532499,
+      "stop" : 1518159534756,
+      "duration" : 2257
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "apply",
+      "title" : "нажата кнопка применения фильтров",
+      "time" : {
+        "start" : 1518159532501,
+        "stop" : 1518159534755,
+        "duration" : 2254
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверено число наушников на странице, которое должно быть равно \"12\"",
+    "title" : "Тогда проверено число наушников на странице, которое должно быть равно \"12\"",
+    "time" : {
+      "start" : 1518159534756,
+      "stop" : 1518159534925,
+      "duration" : 169
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkCountElements[12]",
+      "title" : "проверено количество элементов на странице, 12",
+      "time" : {
+        "start" : 1518159534758,
+        "stop" : 1518159534925,
+        "duration" : 167
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И запомнено название первых наушников в списке",
+    "title" : "И запомнено название первых наушников в списке",
+    "time" : {
+      "start" : 1518159534925,
+      "stop" : 1518159535065,
+      "duration" : 140
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "rememberFirst",
+      "title" : "запомнено первое значение в списке",
+      "time" : {
+        "start" : 1518159534929,
+        "stop" : 1518159535065,
+        "duration" : 136
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда произведен поиск по первым наушникам",
+    "title" : "Когда произведен поиск по первым наушникам",
+    "time" : {
+      "start" : 1518159535066,
+      "stop" : 1518159541193,
+      "duration" : 6127
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "searchElement",
+      "title" : "поиск товара",
+      "time" : {
+        "start" : 1518159535067,
+        "stop" : 1518159541192,
+        "duration" : 6125
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверено значение заголовка наушников с запомненным значением",
+    "title" : "Тогда проверено значение заголовка наушников с запомненным значением",
+    "time" : {
+      "start" : 1518159541193,
+      "stop" : 1518159541331,
+      "duration" : 138
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkElement",
+      "title" : "проверка запомненного и действительного значения элемента",
+      "time" : {
+        "start" : 1518159541194,
+        "stop" : 1518159541330,
+        "duration" : 136
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Поиск наушников в Яндекс.Маркете"
+  }, {
+    "name" : "thread",
+    "value" : "2636@NB-03075.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс.Маркет"
+  }, {
+    "name" : "host",
+    "value" : "NB-03075"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс.Маркет"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

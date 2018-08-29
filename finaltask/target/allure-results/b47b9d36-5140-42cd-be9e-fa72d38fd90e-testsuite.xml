@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518159457674" stop="1518159542113" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс.Маркет</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1518159457756" stop="1518159507403" status="passed">
+            <name>Поиск телевизора в Яндекс.Маркете</name>
+            <title>Поиск телевизора в Яндекс.Маркете</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1518159477694" stop="1518159484858" status="passed">
+                    <name>Когда выбран элемент главного меню "Маркет"</name>
+                    <title>Когда выбран элемент главного меню "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159478524" stop="1518159484856" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159484858" stop="1518159488799" status="passed">
+                    <name>И выбран элемент меню "Электроника"</name>
+                    <title>И выбран элемент меню "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159484859" stop="1518159488798" status="passed">
+                            <name>selectMarketMenuItem[Электроника]</name>
+                            <title>выбран пункт меню Яндекс.Маркета Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159488799" stop="1518159494263" status="passed">
+                    <name>И выбрана категория товара "Телевизоры"</name>
+                    <title>И выбрана категория товара "Телевизоры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159488800" stop="1518159494262" status="passed">
+                            <name>selectElement[Телевизоры]</name>
+                            <title>выбрана категория товаров Телевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159494264" stop="1518159495055" status="passed">
+                    <name>И заполнен фильтр цены от "20000"</name>
+                    <title>И заполнен фильтр цены от "20000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159494265" stop="1518159495054" status="passed">
+                            <name>fillFilter[20000]</name>
+                            <title>заполнен фильтр цены значением 20000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159495057" stop="1518159495310" status="passed">
+                    <name>И заполнен фильтр производителей товара "LG"</name>
+                    <title>И заполнен фильтр производителей товара "LG"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159495058" stop="1518159495310" status="passed">
+                            <name>fillProducerCheckBox[LG]</name>
+                            <title>выбран чек-бокс для производителя товара LG</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159495311" stop="1518159495724" status="passed">
+                    <name>И заполнен фильтр производителей товара "Samsung"</name>
+                    <title>И заполнен фильтр производителей товара "Samsung"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159495312" stop="1518159495723" status="passed">
+                            <name>fillProducerCheckBox[Samsung]</name>
+                            <title>выбран чек-бокс для производителя товара Samsung</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159495724" stop="1518159497716" status="passed">
+                    <name>И нажата кнопка применения фильтров</name>
+                    <title>И нажата кнопка применения фильтров</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159495725" stop="1518159497715" status="passed">
+                            <name>apply</name>
+                            <title>нажата кнопка применения фильтров</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159497716" stop="1518159497999" status="passed">
+                    <name>Тогда проверено число телевизоров на странице, которое должно быть равно "12"</name>
+                    <title>Тогда проверено число телевизоров на странице, которое должно быть равно "12"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159497717" stop="1518159497999" status="passed">
+                            <name>checkCountElements[12]</name>
+                            <title>проверено количество элементов на странице, 12</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159497999" stop="1518159498049" status="passed">
+                    <name>И запомнено название первого телевизора в списке</name>
+                    <title>И запомнено название первого телевизора в списке</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159497999" stop="1518159498049" status="passed">
+                            <name>rememberFirst</name>
+                            <title>запомнено первое значение в списке</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159498049" stop="1518159506560" status="passed">
+                    <name>Когда произведен поиск по первому телевизору</name>
+                    <title>Когда произведен поиск по первому телевизору</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159498049" stop="1518159506559" status="passed">
+                            <name>searchElement</name>
+                            <title>поиск товара</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159506560" stop="1518159506638" status="passed">
+                    <name>Тогда проверено значение заголовка телевизора с запомненным значением</name>
+                    <title>Тогда проверено значение заголовка телевизора с запомненным значением</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159506561" stop="1518159506638" status="passed">
+                            <name>checkElement</name>
+                            <title>проверка запомненного и действительного значения элемента</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Поиск телевизора в Яндекс.Маркете"/>
+                <label name="feature" value="Яндекс.Маркет"/>
+                <label name="host" value="NB-03075"/>
+                <label name="thread" value="2636@NB-03075.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1518159507453" stop="1518159542103" status="passed">
+            <name>Поиск наушников в Яндекс.Маркете</name>
+            <title>Поиск наушников в Яндекс.Маркете</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1518159518776" stop="1518159522445" status="passed">
+                    <name>Когда выбран элемент главного меню "Маркет"</name>
+                    <title>Когда выбран элемент главного меню "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159518777" stop="1518159522444" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159522445" stop="1518159526102" status="passed">
+                    <name>И выбран элемент меню "Электроника"</name>
+                    <title>И выбран элемент меню "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159522446" stop="1518159526101" status="passed">
+                            <name>selectMarketMenuItem[Электроника]</name>
+                            <title>выбран пункт меню Яндекс.Маркета Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159526102" stop="1518159531579" status="passed">
+                    <name>И выбрана категория товара "Наушники"</name>
+                    <title>И выбрана категория товара "Наушники"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159526103" stop="1518159531579" status="passed">
+                            <name>selectElement[Наушники]</name>
+                            <title>выбрана категория товаров Наушники</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159531579" stop="1518159532147" status="passed">
+                    <name>И заполнен фильтр цены от "5000"</name>
+                    <title>И заполнен фильтр цены от "5000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159531580" stop="1518159532147" status="passed">
+                            <name>fillFilter[5000]</name>
+                            <title>заполнен фильтр цены значением 5000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159532148" stop="1518159532499" status="passed">
+                    <name>И заполнен фильтр производителей товара "Beats"</name>
+                    <title>И заполнен фильтр производителей товара "Beats"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159532149" stop="1518159532498" status="passed">
+                            <name>fillProducerCheckBox[Beats]</name>
+                            <title>выбран чек-бокс для производителя товара Beats</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159532499" stop="1518159534756" status="passed">
+                    <name>И нажата кнопка применения фильтров</name>
+                    <title>И нажата кнопка применения фильтров</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159532501" stop="1518159534755" status="passed">
+                            <name>apply</name>
+                            <title>нажата кнопка применения фильтров</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159534756" stop="1518159534925" status="passed">
+                    <name>Тогда проверено число наушников на странице, которое должно быть равно "12"</name>
+                    <title>Тогда проверено число наушников на странице, которое должно быть равно "12"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159534758" stop="1518159534925" status="passed">
+                            <name>checkCountElements[12]</name>
+                            <title>проверено количество элементов на странице, 12</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159534925" stop="1518159535065" status="passed">
+                    <name>И запомнено название первых наушников в списке</name>
+                    <title>И запомнено название первых наушников в списке</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159534929" stop="1518159535065" status="passed">
+                            <name>rememberFirst</name>
+                            <title>запомнено первое значение в списке</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159535066" stop="1518159541193" status="passed">
+                    <name>Когда произведен поиск по первым наушникам</name>
+                    <title>Когда произведен поиск по первым наушникам</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159535067" stop="1518159541192" status="passed">
+                            <name>searchElement</name>
+                            <title>поиск товара</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518159541193" stop="1518159541331" status="passed">
+                    <name>Тогда проверено значение заголовка наушников с запомненным значением</name>
+                    <title>Тогда проверено значение заголовка наушников с запомненным значением</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1518159541194" stop="1518159541330" status="passed">
+                            <name>checkElement</name>
+                            <title>проверка запомненного и действительного значения элемента</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Поиск наушников в Яндекс.Маркете"/>
+                <label name="feature" value="Яндекс.Маркет"/>
+                <label name="host" value="NB-03075"/>
+                <label name="thread" value="2636@NB-03075.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс.Маркет"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

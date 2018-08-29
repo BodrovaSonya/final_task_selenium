@@ -1,0 +1,60 @@
+{
+  "features" : [ {
+    "title" : "Яндекс.Маркет",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "2217e9a64a7b4307",
+      "title" : "Поиск телевизора в Яндекс.Маркете",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b4b75e82a0de9d52",
+        "name" : "Поиск телевизора в Яндекс.Маркете",
+        "title" : "Поиск телевизора в Яндекс.Маркете",
+        "time" : {
+          "start" : 1518159457756,
+          "stop" : 1518159507403,
+          "duration" : 49647
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "8550e2db1ac0470e",
+      "title" : "Поиск наушников в Яндекс.Маркете",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "80ac938b54abbc18",
+        "name" : "Поиск наушников в Яндекс.Маркете",
+        "title" : "Поиск наушников в Яндекс.Маркете",
+        "time" : {
+          "start" : 1518159507453,
+          "stop" : 1518159542103,
+          "duration" : 34650
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
